@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);   /*método de OnCreate*/
         setContentView(R.layout.activity_main);  /*asigna el contenido de la vista*/
-
         mensajeTextView = findViewById(R.id.mensajeTextView); /* creando la conexión al botón -  a esta var de instancia va a hacer una conexión con el elemento textView */
         mensajeTextView.setText("Hola Mundo"); /*utilizando la variable - se le está pasando como parámetro el mensaje hola mundo*/
+        new NetworkManager().execute();
     }
 }
