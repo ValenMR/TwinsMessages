@@ -27,6 +27,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:background="#FFFFFF"
+        android:onClick="buttonPress"
         android:text="Enviar"
         android:textColorHighlight="#BBE7FE"
         android:textColorLink="#673AB7"
